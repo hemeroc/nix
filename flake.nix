@@ -11,7 +11,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
         outlook_src = pkgs.fetchurl {
           url = "https://go.microsoft.com/fwlink/p/?linkid=525137";
-          sha256 = "sha256-PEKZCAeaTXKkIDDFtBDXTzW+M0dd5/wYhUGOQszoSL4=";
+          sha256 = "sha256-ZCUNkymcCDSQz0R5zL22ndILoUzOLM/JyaqYAsxfcDs=";
           curlOptsList = [ "-L" ];
         };
         teams_src = pkgs.fetchurl {
