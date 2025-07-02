@@ -16,7 +16,7 @@
         };
         teams_src = pkgs.fetchurl {
           url = "https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg";
-          sha256 = "sha256-NUCQo3BbHizAOuY41JASAsMZOwSEIIAjji6HRkjs4Xs=";
+          sha256 = "sha256-3qob9XhqU++yfdiVStFjVpHV1ExdEZfUcXf3sOrGfZI=";
         };
         googlechrome_src = pkgs.fetchurl {
           url = "https://dl.google.com/chrome/mac/stable/accept_tos%3Dhttps%253A%252F%252Fwww.google.com%252Fintl%252Fen_ph%252Fchrome%252Fterms%252F%26_and_accept_tos%3Dhttps%253A%252F%252Fpolicies.google.com%252Fterms/googlechrome.pkg";
